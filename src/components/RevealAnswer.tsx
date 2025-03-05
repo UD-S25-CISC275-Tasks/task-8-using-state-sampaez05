@@ -10,7 +10,7 @@ export function RevealAnswer(): React.JSX.Element {
 
     return (
         <div>
-            <Button onClick={switchVisiblity}>Show or Hide Answer</Button>
+            <Button onClick={switchVisiblity}>Reveal Answer</Button>
             {visibile && <div>42</div>}
         </div>
     );
